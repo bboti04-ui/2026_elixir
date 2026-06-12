@@ -5,7 +5,7 @@ Az órán bemutatott tananyag
 A workflow a Biostar Handbook alapján készült: https://www.biostarhandbook.com/
 
 ## Környezet kialakítása
-Linuxos Windows-alrendszerre, Ubuntu-ra és pixi-re lesz szükség
+Linuxos Windows-alrendszerre, Ubuntu-ra és pixi-re lesz szükség.
 A Linuxos Windows-alrendszert powershell-ben vagy a parancssorban lehet letölteni:
 ```
 wsl --install

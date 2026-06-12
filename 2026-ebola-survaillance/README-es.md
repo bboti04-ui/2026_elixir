@@ -29,3 +29,10 @@ Harmadik lépés, hogy illeszd a read-eket a genomhoz.
 ```
 make align
 ```
+
+Végül töröld a származtatott fájlokat:
+```
+make clean
+```
+
+A kapott fájlokat IGV-ben tudod vizualiálni.

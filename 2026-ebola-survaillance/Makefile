@@ -53,4 +53,8 @@ align: download fastq
 	samtools index $(BAM).sorted.bam
 	samtools flagstat $(BAM).sorted.bam
 
-.PHONY: help download fastq align
+# Remove all the derived files
+clean:
+    rm -rf fastq bam refs
+
+.PHONY: help download fastq align clean
